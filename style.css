@@ -1,6 +1,10 @@
 .dark-green{
   background-color: #10513A;
 }
+
+.dark-green-text{
+  color: #10513A;
+}
 .light-green{
   color: #67EFBF;
 }
