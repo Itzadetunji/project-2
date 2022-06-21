@@ -21,3 +21,7 @@
 .dark-blue-text{
   color: #212B32;
 }
+
+.background-image{
+  background-image: url(Images/background-2.png);
+}
