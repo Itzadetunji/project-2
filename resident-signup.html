@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Individual-Signup</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class>
     <div><!--start of div class-->
@@ -27,20 +28,21 @@
             <div class="pt-8 ">
                 <p> Country</p>
             </div>
-        <div> 
-            <select type="text" class=" font-Montserrat border px-5 py-[21px] mt-1 bg-white border-black w-full rounded h-[40px] outline-none" placeholder="Select your country"  ><label for="country">Select your country</label>
-            <option value="Nigeria">Nigeria</option>
+            <div> 
+                <select type="text" class="border px-5 py-[21px] mt-1 bg-white border-black w-full rounded h-[40px] outline-none" placeholder="Select your country" name="country_location"><label for="country">Select your country</label>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Cameroon">Cameroon</option>
+                </select>
+            </div>
+        <div class="pt-8">
+            <p>City</p>
+            <select type="text" class="border px-5 py-[21px] mt-1 bg-white border-black w-full rounded h-[40px] outline-none" placeholder="Select your country" name="country_location"><label for="country">Select your country</label>
+                <option value="lagos">Lagos</option>
+                <option value="sango-ota">Sango-ota</option>
+                <option value="ikeja">Ikeja</option>
             </select>
         </div>
-        <div class="pt-8">
-            <label for="city"> City.</label>
-        </div>
-    <div> 
-        <select name="city" id="city" type="text" class="mt-1 border px-5 py-[21px] border-black border-5 bg-white text-black h-[40px] w-full rounded outline-none" placeholder="Select your city">
-            <option value="Ogun">Ogun State</option>
-            
-        </select>
-    </div>
     <div class="pt-8">
         <label for="address"> Address</label>
     </div>
@@ -49,14 +51,14 @@
 </input>
 </div>
 <div class="pt-[40px]">
+    <div>
+        <a href="login.html"><p class="dark-green-text">Already have an account?</p></a>
+    </div>
     <button class=" bg-[#10513A] text-white w-full h-14 px-[18px] rounded py-5w-80 my-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><a href="resident-1.html">Create your account</a></button>
 </div> 
             </div>
             </form>
                </div>
-        <!-- <div class="pt-[100px] position absolute pb-0 flex basis-4 text-sm font-serif py-5 text-green-700 flex justify-center">
-            <img src="bottom.png"></img>
-        </div> -->
     
 </body>
 </html>
